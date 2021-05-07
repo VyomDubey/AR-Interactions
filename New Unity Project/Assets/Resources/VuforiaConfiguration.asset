@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2067402452, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: VuforiaConfiguration
+  m_EditorClassIdentifier: 
+  vuforia:
+    vuforiaLicenseKey: AREx9cr/////AAABmXgkMjii60xPsDQEuiULjyw4RRV2O4KXZyYa5AAl5415XVI9Psdvz4yj2/f4dNozXMo0G1AEZEp5fF6nX4vo3iRZxMsHb5chY0lcss2BmHTuz7L5sQemDke/0CVyUMh81L7WFaUBHmAOT8Mq2uVMLeLNxcYn++AA7H60YoMiGJkRSiAxIL6KMdZZZH9uHWp4f4dC4Nzty/+9GCRVmP68IORBLRf+SxGmJlBv9Y7keIcYn/RBG4H+mnFuOJprrdsFrfdVjc6+11DOaeDYyQrdvttvEoxsM8w07ZoU7AgSDAvGDBU75O/Pp0W+LDoJzrMbVqhQMYn7sZOkTzGDHg2soO7mNsssieqFmMX1FUW7qDx5
+    ufoLicenseKey: QVMxMG8xNy8vLy8vQUFBQUtGdnllaEh2dUVERGx1MFJDNVVYa3B4R2VMQWZuN2JRc3hteFBJc1hhU3ZYamxHTDVsV2JvM2xKbmo3SlJ4VldkblU2aHJSSHhHRWpQdGtsWnVpaURkbm5BdDg2ZVlobTJuVG8wSml4SG4reEtXS2ZtNkl2TWl2NWR1MzcxL0UzdmRJdG1uZnJDTlNlWjlKeG1YMzhnVkhRRVRpZmdzckRmbFJZVXVsbUJKMUczSEhwQTBnMXR1dEhZUlYrSmJZVUtNQjgvNzlZRi8wSXdoM0kreW1MZFhCNzhBTy9KZXF2Nm9kUWdNd0lzcHBvSWttWlNQQm1qV0djMjhISmZETTN1UG1QMkNOc2JheElNT3R5c1FVTFpJQkZUT2lZOFhKcjN0Q3kzR2RET1JwN3BPay9jc2p2dFRjVGRCR3lMUVZnZS9jdlhGb01nSWl6cGJrRE9lZitIQ2JSUmhoSi9jcnh0Y1dla1l4V3htS3Q=
+    delayedInitialization: 0
+    cameraDeviceModeSetting: -1
+    maxSimultaneousImageTargets: 1
+    maxSimultaneousObjectTargets: 1
+    virtualSceneScaleFactor: 1
+    useDelayedLoadingObjectTargets: 0
+    modelTargetRecoWhileExtendedTracked: 1
+    version: 9.6.3
+    eulaAcceptedVersions: '{"Values":["8.3","8.6","9.0","9.1","0.0","8.0","7.1","7.2","7.5","8.1","8.5","9.4","9.3","9.6"]}'
+  database:
+    disableModelExtraction: 0
+  videoBackground:
+    numDivisions: 2
+    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a, type: 3}
+    unlitShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+    videoBackgroundEnabled: 1
+  deviceTracker:
+    autoStartTracker: 1
+    arcoreRequirement: 1
+    autoImportArcore: 1
+  playmode:
+    mSequencePath: 
+    playModeType: 0
+  webcam:
+    renderTextureLayer: 30
+  packageInformation:
+    ARFoundationVersion: 
